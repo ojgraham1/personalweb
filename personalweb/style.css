@@ -1,0 +1,76 @@
+html{
+    background-image: url(cat.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topnav{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    box-shadow:  0 0 12px -2px black;
+}
+
+.topnav a{
+    float: left;
+    font-size: larger;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.topnav a:hover{
+    background-color: rgb(191, 64, 191);
+    color:black;
+}
+
+.topnav a.active{
+    background-color: rgb(248, 186, 209);
+    color: black;
+}
+
+.footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow:  0 0 12px -2px black;
+
+}
+
+.box{
+    width: auto;
+    height: auto;
+    font-size: larger;
+    background-color: lightblue;
+    color:black;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box1{
+    width: auto;
+    height: auto;
+    font-size: larger;
+    background-color: lightgray;
+    color:black;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.img{
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+    float: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
