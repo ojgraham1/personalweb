@@ -14,10 +14,9 @@ html{
 }
 
 .topnav a{
-    float: left;
+    float:left;
     font-size: larger;
-    padding: 10px 16px;
-    text-align: center;
+    padding: 16px 40px;
 }
 
 .topnav a:hover{
@@ -30,25 +29,28 @@ html{
     color: black;
 }
 
+
+
 .footer{
     background-color: white;
     position: fixed;
-    bottom: 0;
     left: 0;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    text-align: center;
     padding: 10px;
     box-shadow:  0 0 12px -2px black;
-
 }
 
 .box{
     width: auto;
     height: auto;
     font-size: larger;
-    background-color: lightblue;
-    color:black;
-    border: 5px solid black;
+    background-color: aliceblue;
+    color:#000000;
+    border: 2px solid black;
     padding: 10px;
     margin: 10px;
     text-align: center;
@@ -58,19 +60,33 @@ html{
     width: auto;
     height: auto;
     font-size: larger;
-    background-color: lightgray;
+    background-color: whitesmoke;
     color:black;
-    border: 5px solid black;
+    border: 4px solid black;
     margin: 5px;
     text-align: center;
 }
 
 .img{
-    height: fit-content;
+    max-width: 100%;
+    height: auto;
     padding: 5px;
     text-align: center;
     float: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+form{
+    background-color: aliceblue;
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+    font-size: 14px;
+}
 }
